@@ -1,0 +1,39 @@
+[submodule "Phoebus"]
+	path = Phoebus
+	url = https://github.com/fricy/Phoebus
+[submodule "ASCII-Square"]
+	path = ASCII-Square
+	url = https://github.com/fricy/ASCII-Square
+[submodule "ASCII-Default"]
+	path = ASCII-Default
+	url = https://github.com/fricy/ASCII-Default
+[submodule "Grim-Fortress"]
+	path = Grim-Fortress
+	url = https://github.com/fricy/Grim-Fortress
+[submodule "DawnFortress"]
+	path = DawnFortress
+	url = https://github.com/fricy/DawnFortress
+[submodule "CLA"]
+	path = CLA
+	url = https://github.com/fricy/CLA
+[submodule "Ironhand"]
+	path = Ironhand
+	url = https://github.com/fricy/Ironhand
+[submodule "Jolly-Bastion"]
+	path = Jolly-Bastion
+	url = https://github.com/fricy/Jolly-Bastion
+[submodule "Mayday"]
+	path = Mayday
+	url = https://github.com/fricy/Mayday
+[submodule "Shizzle"]
+	path = Shizzle
+	url = https://github.com/fricy/Shizzle
+[submodule "Taffer"]
+	path = Taffer
+	url = https://github.com/fricy/Taffer
+[submodule "Vherid"]
+	path = Vherid
+	url = https://github.com/fricy/Vherid
+[submodule "Spacefox"]
+	path = Spacefox
+	url = https://github.com/fricy/Spacefox
