@@ -37,3 +37,6 @@
 [submodule "Spacefox"]
 	path = Spacefox
 	url = https://github.com/fricy/Spacefox
+[submodule "Duerer"]
+	path = Duerer
+	url = https://fricy@github.com/fricy/Duerer.git
