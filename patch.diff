@@ -1,0 +1,134 @@
+From 0d4c0a2c82c017032c2cb25a353fa6da9731f5ad Mon Sep 17 00:00:00 2001
+From: fricy <fricy@users.noreply.github.com>
+Date: Sun, 17 Aug 2014 23:20:04 +0200
+Subject: [PATCH] 40.09 raws, updated d_init, pineapples, quarry bushes,
+ process to bag reaction
+
+---
+ data/init/d_init.txt           | 24 ++++++++++++++++++++++--
+ raw/objects/plant_garden.txt   | 12 ++++++------
+ raw/objects/plant_standard.txt |  3 ++-
+ raw/objects/reaction_other.txt |  3 +++
+ 4 files changed, 33 insertions(+), 9 deletions(-)
+
+diff --git a/data/init/d_init.txt b/data/init/d_init.txt
+index 9d728c6..05228a8 100755
+--- a/data/init/d_init.txt
++++ b/data/init/d_init.txt
+@@ -1,5 +1,21 @@
++WARNING: Do NOT copy over the d_init.txt from an earlier version of DF.
++Always read the file carefully, including the comments.
++
++In general, you can copy savegames and tilesets from older DF
++versions, but you should not copy anything else.  You should not, under any
++circumstances, unpack a new DF on top of an older one.
++
++
+ Use these to control the automatic saving behavior in the dwarf fortress mode of game.  AUTOSAVE can be set to NONE, SEASONAL or YEARLY.  This updates your save at these intervals, so that some of your progress will be saved in case of system instability.  You can set AUTOBACKUP to YES if you want the updated save to be copied to another folder so that you'll have several copies of your world at different times.  Set AUTOSAVE_PAUSE to YES if you want the game to pause every time it autosaves.
+ 
++Always read the file carefully, including the comments.
++
++In general, you can copy savegames and tilesets from older DF
++versions, but you should not copy anything else.  You should not, under any
++circumstances, unpack a new DF on top of an older one.
++
++
++Use these to control the automatic saving behavior in the dwarf fortress mode of game.  AUTOSAVE can be set to NONE, SEASONAL or YEARLY.  This updates your save at these intervals, so that some of your progress will be saved in case of system instability.  You can set AUTOBACKUP to YES if you want the updated save to be copied to another folder so that you'll have several copies of your world at different times.  Set AUTOSAVE_PAUSE to YES if you want the game to pause every time it autosaves.
+ [AUTOSAVE:NONE]
+ [AUTOBACKUP:NO]
+ [AUTOSAVE_PAUSE:NO]
+@@ -12,11 +28,15 @@ Set this to NO to make Dwarf Fortress remain in the saved pause state when you l
+ 
+ [PAUSE_ON_LOAD:YES]
+ 
+-Set this to YES if you want Dwarf Fortress to show the warning window on embark as a confirmation even if there are no issues.
++Set this to YES if you want Dwarf Fortress to show the warning window for embark site selection even if there are no issues (as a way of confirming your choice).
+ 
+ [EMBARK_WARNING_ALWAYS:NO]
+ 
+-You can change these to ALWAYS and NO.  More restrictive world parameter settings override these.  ALWAYS lets you see the features in the Local view during embark, and NO stops you from looking for features in the site finder (though if you really want to stop the finder, it might be better for you to generate worlds that restrict the use of this feature completely, in which case you don't need to change the settings here).
++This option controls whether or not your choice to embark has a confirmation window after you have selected any dwarves and equipment.  Valid choices are ALWAYS, IF_POINTS_REMAIN and NO.
++
++[POST_PREPARE_EMBARK_CONFIRMATION:IF_POINTS_REMAIN]
++
++You can change the option below to ALWAYS and NO.  More restrictive world parameter settings override these.  ALWAYS lets you see the features in the Local view during embark, and NO stops you from looking for features in the site finder (though if you really want to stop the finder, it might be better for you to generate worlds that restrict the use of this feature completely, in which case you don't need to change the settings here).
+ 
+ [SHOW_EMBARK_TUNNEL:FINDER]
+ 
+diff --git a/raw/objects/plant_garden.txt b/raw/objects/plant_garden.txt
+index 638dbdc..fc18a73 100755
+--- a/raw/objects/plant_garden.txt
++++ b/raw/objects/plant_garden.txt
+@@ -2549,6 +2549,10 @@ plant_garden
+ 	[NAME:pineapple plant][NAME_PLURAL:pineapple plants][ADJ:pineapple plant]
+ 	[USE_MATERIAL_TEMPLATE:STRUCTURAL:STRUCTURAL_PLANT_TEMPLATE]
+ 	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
++	[PICKED_TILE:58][PICKED_COLOR:2:0:1]
++	[DRY][BIOME:ANY_TROPICAL]
++	[VALUE:2]
++	[SPRING][SUMMER][AUTUMN][WINTER]
+ 	[USE_MATERIAL_TEMPLATE:DRINK:PLANT_ALCOHOL_TEMPLATE]
+ 		[STATE_NAME_ADJ:ALL_SOLID:frozen pineapple wine]
+ 		[STATE_NAME_ADJ:LIQUID:pineapple wine]
+@@ -2579,20 +2583,17 @@ plant_garden
+ 		[EDIBLE_VERMIN]
+ 	[SEED:pineapple seed:pineapple seeds:0:0:1:LOCAL_PLANT_MAT:SEED]
+ 	[PREFSTRING:fruit]
+-	[DRY]
+-	[BIOME:ANY_TROPICAL]
++	[FREQUENCY:50]
++	[CLUSTERSIZE:5]
+ 	[GROWTH:LEAVES]
+ 		[GROWTH_NAME:pineapple leaf:pineapple leaves]
+ 		[GROWTH_ITEM:PLANT_GROWTH:NONE:LOCAL_PLANT_MAT:LEAF]
+ 		[GROWTH_DENSITY:1000]
+-		[GROWTH_HOST_TILE:BRANCHES_AND_TWIGS]
+-		[GROWTH_HOST_TILE:SAPLING]
+ 		[GROWTH_PRINT:0:6:2:0:0:ALL:1]
+ 	[GROWTH:FLOWERS]
+ 		[GROWTH_NAME:pineapple flower:STP]
+ 		[GROWTH_ITEM:PLANT_GROWTH:NONE:LOCAL_PLANT_MAT:FLOWER]
+ 		[GROWTH_DENSITY:1000]
+-		[GROWTH_HOST_TILE:BRANCHES_AND_TWIGS]
+ 		[GROWTH_TIMING:60000:119999]
+ 		[GROWTH_PRINT:241:241:5:2:1:60000:119999:2]
+ 		*** many flowers join together to make a single pineapple
+@@ -2600,7 +2601,6 @@ plant_garden
+ 		[GROWTH_NAME:pineapple:STP]
+ 		[GROWTH_ITEM:PLANT_GROWTH:NONE:LOCAL_PLANT_MAT:FRUIT]
+ 		[GROWTH_DENSITY:1000]
+-		[GROWTH_HOST_TILE:BRANCHES_AND_TWIGS]
+ 		[GROWTH_TIMING:120000:200000]
+ 		[GROWTH_DROPS_OFF_NO_CLOUD]
+ 		[GROWTH_PRINT:164:164:6:2:0:120000:200000:3]
+diff --git a/raw/objects/plant_standard.txt b/raw/objects/plant_standard.txt
+index 6d1711a..4e88791 100755
+--- a/raw/objects/plant_standard.txt
++++ b/raw/objects/plant_standard.txt
+@@ -209,7 +209,8 @@ plant_standard
+ 	[USE_MATERIAL_TEMPLATE:STRUCTURAL:STRUCTURAL_PLANT_TEMPLATE]
+ 		[MATERIAL_VALUE:2]
+ 		[EDIBLE_VERMIN]
+-		[ITEM_REACTION_PRODUCT:BAG_ITEM:PLANT_GROWTH:LEAVES:LOCAL_PLANT_MAT:STRUCTURAL]
++		[ITEM_REACTION_PRODUCT:BAG_ITEM:PLANT_GROWTH:LEAVES:LOCAL_PLANT_MAT:LEAF]
++		[MATERIAL_REACTION_PRODUCT:SEED_MAT:LOCAL_PLANT_MAT:SEED]
+ 	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+ 	[PICKED_TILE:161][PICKED_COLOR:7:8:0]
+ 	[GROWDUR:500][VALUE:2]
+diff --git a/raw/objects/reaction_other.txt b/raw/objects/reaction_other.txt
+index bc7cd90..4e6e2f9 100755
+--- a/raw/objects/reaction_other.txt
++++ b/raw/objects/reaction_other.txt
+@@ -325,6 +325,9 @@ reaction_other
+ 		[EMPTY]
+ 		[BAG]
+ 		[PRESERVE_REAGENT]
++		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+ 	[PRODUCT:100:5:GET_ITEM_DATA_FROM_REAGENT:plant:BAG_ITEM]
+ 		[PRODUCT_TO_CONTAINER:bag]
++	[PRODUCT:100:1:SEEDS:NONE:GET_MATERIAL_FROM_REAGENT:plant:SEED_MAT]
+ 	[SKILL:PROCESSPLANTS]
++
+-- 
+1.8.4.2
+
