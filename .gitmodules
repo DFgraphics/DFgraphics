@@ -40,3 +40,6 @@
 [submodule "Duerer"]
 	path = Duerer
 	url = https://fricy@github.com/fricy/Duerer.git
+[submodule "Afro"]
+	path = Afro
+	url = https://fricy@github.com/fricy/Afro-Graphics.git
