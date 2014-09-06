@@ -1,45 +1,64 @@
 [submodule "Phoebus"]
 	path = Phoebus
 	url = https://github.com/fricy/Phoebus
+	branch = master
 [submodule "ASCII-Square"]
 	path = ASCII-Square
 	url = https://github.com/fricy/ASCII-Square
+	branch = master
 [submodule "ASCII-Default"]
 	path = ASCII-Default
 	url = https://github.com/fricy/ASCII-Default
+	branch = master
 [submodule "Grim-Fortress"]
 	path = Grim-Fortress
 	url = https://github.com/fricy/Grim-Fortress
+	branch = master
 [submodule "DawnFortress"]
 	path = DawnFortress
 	url = https://github.com/fricy/DawnFortress
+	branch = master
 [submodule "CLA"]
 	path = CLA
 	url = https://github.com/fricy/CLA
+	branch = master
 [submodule "Ironhand"]
 	path = Ironhand
 	url = https://github.com/fricy/Ironhand
+	branch = master
 [submodule "Jolly-Bastion"]
 	path = Jolly-Bastion
 	url = https://github.com/fricy/Jolly-Bastion
+	branch = master
 [submodule "Mayday"]
 	path = Mayday
 	url = https://github.com/fricy/Mayday
+	branch = master
 [submodule "Shizzle"]
 	path = Shizzle
 	url = https://github.com/fricy/Shizzle
+	branch = master
 [submodule "Taffer"]
 	path = Taffer
 	url = https://github.com/fricy/Taffer
+	branch = master
 [submodule "Vherid"]
 	path = Vherid
 	url = https://github.com/fricy/Vherid
+	branch = master
 [submodule "Spacefox"]
 	path = Spacefox
 	url = https://github.com/fricy/Spacefox
+	branch = master
 [submodule "Duerer"]
 	path = Duerer
 	url = https://fricy@github.com/fricy/Duerer.git
+	branch = master
 [submodule "Afro"]
 	path = Afro
 	url = https://fricy@github.com/fricy/Afro-Graphics.git
+	branch = master
+[submodule "Obsidian"]
+	path = Obsidian
+	url = https://fricy@github.com/fricy/Obsidian.git
+	branch = master
