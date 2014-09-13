@@ -62,3 +62,7 @@
 	path = Obsidian
 	url = https://fricy@github.com/fricy/Obsidian.git
 	branch = master
+[submodule "BurnedFX"]
+	path = BurnedFX
+	url = https://fricy@github.com/fricy/BurnedFX.git
+	branch = master
