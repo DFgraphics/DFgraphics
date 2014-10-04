@@ -62,3 +62,7 @@
 	path = Obsidian
 	url = https://fricy@github.com/fricy/Obsidian.git
 	branch = master
+[submodule "MLC-ASCII"]
+	path = MLC-ASCII
+	url = https://fricy@github.com/fricy/MLC-ASCII.git
+	branch = master
