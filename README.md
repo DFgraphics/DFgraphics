@@ -1,7 +1,7 @@
-DFgraphics
+DFgraphics 40.14
 ==========
 
-Dwarf Fortress Graphics 40.13 repo for Starter Packs
+Dwarf Fortress graphics repo for Starter Packs
 
 
 Starter Pack links:
