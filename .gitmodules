@@ -66,3 +66,7 @@
 	path = MLC-ASCII
 	url = https://fricy@github.com/fricy/MLC-ASCII.git
 	branch = master
+[submodule "Wanderlust"]
+	path = Wanderlust
+	url = https://fricy@github.com/fricy/Wanderlust.git
+	branch = master
