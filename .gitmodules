@@ -70,3 +70,7 @@
 	path = Wanderlust
 	url = https://fricy@github.com/fricy/Wanderlust.git
 	branch = master
+[submodule "Tergel"]
+	path = Tergel
+	url = https://fricy@github.com/fricy/Tergel.git
+	branch = master
