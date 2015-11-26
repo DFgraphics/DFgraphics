@@ -38,10 +38,6 @@
 	path = Taffer
 	url = https://github.com/fricy/Taffer
 	branch = master
-[submodule "Vherid"]
-	path = Vherid
-	url = https://github.com/fricy/Vherid
-	branch = master
 [submodule "Spacefox"]
 	path = Spacefox
 	url = https://github.com/fricy/Spacefox
