@@ -2,10 +2,6 @@
 	path = Phoebus
 	url = https://github.com/fricy/Phoebus
 	branch = master
-[submodule "ASCII-Square"]
-	path = ASCII-Square
-	url = https://github.com/fricy/ASCII-Square
-	branch = master
 [submodule "ASCII-Default"]
 	path = ASCII-Default
 	url = https://github.com/fricy/ASCII-Default
