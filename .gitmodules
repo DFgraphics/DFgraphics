@@ -14,6 +14,10 @@
 	path = Grim-Fortress
 	url = https://github.com/fricy/Grim-Fortress
 	branch = master
+[submodule "DawnFortress"]
+	path = DawnFortress
+	url = https://github.com/fricy/DawnFortress
+	branch = master
 [submodule "CLA"]
 	path = CLA
 	url = https://github.com/fricy/CLA
