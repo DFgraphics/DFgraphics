@@ -62,3 +62,6 @@
 	path = Tergel
 	url = https://fricy@github.com/fricy/Tergel.git
 	branch = master
+[submodule "GemSet"]
+	path = GemSet
+	url = https://fricy@github.com/fricy/GemSet.git
