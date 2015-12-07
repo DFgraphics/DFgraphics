@@ -50,10 +50,6 @@
 	path = Obsidian
 	url = https://fricy@github.com/fricy/Obsidian.git
 	branch = master
-[submodule "MLC-ASCII"]
-	path = MLC-ASCII
-	url = https://fricy@github.com/fricy/MLC-ASCII.git
-	branch = master
 [submodule "Wanderlust"]
 	path = Wanderlust
 	url = https://fricy@github.com/fricy/Wanderlust.git
@@ -62,6 +58,3 @@
 	path = Tergel
 	url = https://fricy@github.com/fricy/Tergel.git
 	branch = master
-[submodule "GemSet"]
-	path = GemSet
-	url = https://fricy@github.com/fricy/GemSet.git
