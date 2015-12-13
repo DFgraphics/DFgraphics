@@ -1,4 +1,4 @@
-DFgraphics 0.42.02
+DFgraphics 0.42.03
 ==========
 
 Dwarf Fortress graphics repo for Starter Packs configured for [TWBT](https://github.com/mifki/df-twbt) rendering.
