@@ -1,63 +1,47 @@
-[submodule "Phoebus"]
-	path = Phoebus
-	url = https://github.com/fricy/Phoebus
-	branch = master
-[submodule "ASCII-Default"]
-	path = ASCII-Default
-	url = https://github.com/fricy/ASCII-Default
-	branch = master
-[submodule "Grim-Fortress"]
-	path = Grim-Fortress
-	url = https://github.com/fricy/Grim-Fortress
-	branch = master
-[submodule "CLA"]
-	path = CLA
-	url = https://github.com/fricy/CLA
-	branch = master
-[submodule "Ironhand"]
-	path = Ironhand
-	url = https://github.com/fricy/Ironhand
-	branch = master
-[submodule "Jolly-Bastion"]
-	path = Jolly-Bastion
-	url = https://github.com/fricy/Jolly-Bastion
-	branch = master
-[submodule "Mayday"]
-	path = Mayday
-	url = https://github.com/fricy/Mayday
-	branch = master
-[submodule "Shizzle"]
-	path = Shizzle
-	url = https://github.com/fricy/Shizzle
-	branch = master
-[submodule "Taffer"]
-	path = Taffer
-	url = https://github.com/fricy/Taffer
-	branch = master
-[submodule "Spacefox"]
-	path = Spacefox
-	url = https://github.com/fricy/Spacefox
-	branch = master
-[submodule "Duerer"]
-	path = Duerer
-	url = https://fricy@github.com/fricy/Duerer.git
-	branch = master
 [submodule "Afro"]
 	path = Afro
-	url = https://fricy@github.com/fricy/Afro-Graphics.git
-	branch = master
-[submodule "Obsidian"]
-	path = Obsidian
-	url = https://fricy@github.com/fricy/Obsidian.git
-	branch = master
-[submodule "Wanderlust"]
-	path = Wanderlust
-	url = https://fricy@github.com/fricy/Wanderlust.git
-	branch = master
-[submodule "Tergel"]
-	path = Tergel
-	url = https://fricy@github.com/fricy/Tergel.git
-	branch = master
+	url = https://github.com/DFGraphics/Afro-Graphics
+
+[submodule "CLA"]
+	path = CLA
+	url = https://github.com/DFGraphics/CLA
+
 [submodule "GemSet"]
 	path = GemSet
-	url = https://fricy@github.com/fricy/GemSet.git
+	url = https://github.com/DFGraphics/GemSet
+
+[submodule "Ironhand"]
+	path = Ironhand
+	url = https://github.com/DFGraphics/Ironhand
+
+[submodule "Jolly-Bastion"]
+	path = Jolly-Bastion
+	url = https://github.com/DFGraphics/Jolly-Bastion
+
+[submodule "Mayday"]
+	path = Mayday
+	url = https://github.com/DFGraphics/Mayday
+
+[submodule "Obsidian"]
+	path = Obsidian
+	url = https://github.com/DFgraphics/Obsidian
+
+[submodule "Phoebus"]
+	path = Phoebus
+	url = https://github.com/DFgraphics/Phoebus
+
+[submodule "Spacefox"]
+	path = Spacefox
+	url = https://github.com/DFgraphics/Spacefox
+
+[submodule "Taffer"]
+	path = Taffer
+	url = https://github.com/DFgraphics/Taffer
+
+[submodule "Tergel"]
+	path = Tergel
+	url = https://github.com/DFgraphics/Tergel
+
+[submodule "Wanderlust"]
+	path = Wanderlust
+	url = https://github.com/DFgraphics/Wanderlust
