@@ -1,0 +1,11 @@
+sudo: false
+language: python
+python:
+    - "2.7"
+    - "3.5"
+install: pip install sphinx
+script:
+    - sphinx-build -qW . _build
+    # TODO: write graphics pack testing tools!
+notifications:
+    email: false
