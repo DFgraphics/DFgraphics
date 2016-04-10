@@ -1,47 +1,47 @@
 [submodule "Afro"]
-	path = Afro
+	path = graphics-packs/Afro
 	url = https://github.com/DFGraphics/Afro-Graphics
 
 [submodule "CLA"]
-	path = CLA
+	path = graphics-packs/CLA
 	url = https://github.com/DFGraphics/CLA
 
 [submodule "GemSet"]
-	path = GemSet
+	path = graphics-packs/GemSet
 	url = https://github.com/DFGraphics/GemSet
 
 [submodule "Ironhand"]
-	path = Ironhand
+	path = graphics-packs/Ironhand
 	url = https://github.com/DFGraphics/Ironhand
 
 [submodule "Jolly-Bastion"]
-	path = Jolly-Bastion
+	path = graphics-packs/Jolly-Bastion
 	url = https://github.com/DFGraphics/Jolly-Bastion
 
 [submodule "Mayday"]
-	path = Mayday
+	path = graphics-packs/Mayday
 	url = https://github.com/DFGraphics/Mayday
 
 [submodule "Obsidian"]
-	path = Obsidian
+	path = graphics-packs/Obsidian
 	url = https://github.com/DFgraphics/Obsidian
 
 [submodule "Phoebus"]
-	path = Phoebus
+	path = graphics-packs/Phoebus
 	url = https://github.com/DFgraphics/Phoebus
 
 [submodule "Spacefox"]
-	path = Spacefox
+	path = graphics-packs/Spacefox
 	url = https://github.com/DFgraphics/Spacefox
 
 [submodule "Taffer"]
-	path = Taffer
+	path = graphics-packs/Taffer
 	url = https://github.com/DFgraphics/Taffer
 
 [submodule "Tergel"]
-	path = Tergel
+	path = graphics-packs/Tergel
 	url = https://github.com/DFgraphics/Tergel
 
 [submodule "Wanderlust"]
-	path = Wanderlust
+	path = graphics-packs/Wanderlust
 	url = https://github.com/DFgraphics/Wanderlust
