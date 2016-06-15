@@ -15,5 +15,6 @@ Documentation
    :maxdepth: 1
    :glob:
 
+   contributing
    docs/*
-   LICENSE.rst
+   LICENSE
